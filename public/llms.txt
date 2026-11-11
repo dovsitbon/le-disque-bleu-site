@@ -1,0 +1,33 @@
+# Le Disque Bleu
+
+> Restaurant-brasserie, bar et tabac sur la place Roger Levanneur à Montmorency (Val-d'Oise, France). Plat du jour le midi, burger maison, terrasse, cocktails. Ouvert 7 jours sur 7.
+
+## L'essentiel
+
+- Adresse : 8 place Roger Levanneur, 95160 Montmorency, France
+- Téléphone : 01 75 40 78 27 (+33 1 75 40 78 27)
+- Horaires : du lundi au samedi de 7 h à 21 h, le dimanche de 7 h 30 à 15 h ; jusqu'à 22 h en été
+- Budget : 10 à 20 € par personne
+- Note Google : 4,5/5 sur 172 avis (relevée le 11 novembre 2026)
+- Services : repas sur place, terrasse, vente à emporter, bar, tabac, privatisation
+- Instagram : https://www.instagram.com/ledisquebleu_/
+
+## Ce qu'on y mange
+
+- Un plat du jour différent chaque midi (côte de veau, langue de bœuf, bœuf bourguignon, moules frites…)
+- Couscous royal maison tous les lundis
+- Burger maison : steak, frites et pain faits sur place
+- Classiques de brasserie : pièce du boucher, andouillette grillée, steak haché œuf à cheval, saumon grillé, escalope milanaise, pâtes
+- Desserts maison : crème brûlée, panna cotta, crêpes à partir de 15 h
+- Cocktails avec et sans alcool : mojito, spritz, piña colada, virgin mojito
+
+## Pages
+
+- [Accueil](/fr) : présentation, plat du jour, horaires, accès
+- [La carte](/fr/carte) : plats, burgers, salades, desserts, cocktails, boissons
+- [Réserver une table](/fr/reserver) : déjeuner ou dîner, en salle ou en terrasse
+- [Commander à emporter](/fr/commander) : retrait au comptoir
+- [Soirées et privatisation](/fr/soirees-privatisation) : soirées à thème, anniversaires, groupes
+- [Restaurant à Montmorency](/fr/restaurant-montmorency)
+- [Bar et terrasse à Montmorency](/fr/bar-terrasse-montmorency)
+- English version: /en

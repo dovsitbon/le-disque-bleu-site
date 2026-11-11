@@ -1,0 +1,23 @@
+{
+  "_doc": "Coordonnées et réglages généraux. rating : note Google relevée à la main (mettre à jour value, count et checked). whatsapp : portable au format international sans + (ex. 33612345678) ; vide = pas de bouton WhatsApp (le 01 75 40 78 27 est un fixe). payment.enabled : paiement en ligne, désactivé par défaut. giftCardUrl : lien « Bon cadeau » (vide = lien masqué). delivery : false tant que la livraison n'est pas confirmée (la fiche Google ne la propose pas le 2026-11-11). resa / order : fenêtres des réservations et des retraits.",
+  "name": "Le Disque Bleu",
+  "fullName": "Le Disque Bleu · Restaurant, brasserie, bar, tabac",
+  "url": "https://le-disque-bleu.vercel.app",
+  "phone": "01 75 40 78 27",
+  "phoneIntl": "+33175407827",
+  "whatsapp": "",
+  "email": "",
+  "address": { "street": "8 place Roger Levanneur", "postalCode": "95160", "city": "Montmorency", "region": "Île-de-France", "country": "FR" },
+  "geo": { "lat": 48.988506, "lng": 2.3185937 },
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Le+Disque+Bleu+8+place+Roger+Levanneur+95160+Montmorency",
+  "mapsEmbed": "https://www.google.com/maps?q=Le+Disque+Bleu,+8+place+Roger+Levanneur,+95160+Montmorency&z=17&output=embed",
+  "instagram": "https://www.instagram.com/ledisquebleu_/",
+  "rating": { "value": 4.5, "count": 172, "source": "Google", "checked": "2026-11-11" },
+  "priceRange": "10–20 €",
+  "delivery": false,
+  "giftCardUrl": "",
+  "resa": { "lunch": ["12:00", "14:30"], "dinnerFrom": "19:00", "dinnerLastBeforeClose": 60, "stepMinutes": 15, "daysAhead": 60, "maxGuests": 12 },
+  "order": { "from": "11:30", "lastBeforeClose": 30, "minutesAhead": 30, "stepMinutes": 15, "daysAhead": 6, "maxPerLine": 15 },
+  "payment": { "enabled": false, "provider": "stripe" },
+  "legal": { "company": "Le Disque Bleu", "siret": "", "director": "", "host": "Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis" }
+}

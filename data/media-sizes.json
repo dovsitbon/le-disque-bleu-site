@@ -1,0 +1,118 @@
+{
+ "/media/hero/hero.jpg": [
+  1440,
+  1800
+ ],
+ "/media/plats/andouillette.jpg": [
+  1052,
+  1080
+ ],
+ "/media/plats/burger-maison.jpg": [
+  832,
+  832
+ ],
+ "/media/plats/escalope-milanaise.jpg": [
+  1422,
+  1600
+ ],
+ "/media/plats/lasagne.jpg": [
+  1380,
+  1600
+ ],
+ "/media/plats/paella.jpg": [
+  1280,
+  1600
+ ],
+ "/media/plats/pates-pesto.jpg": [
+  1024,
+  1024
+ ],
+ "/media/plats/penne-champignons.jpg": [
+  1280,
+  1600
+ ],
+ "/media/plats/piece-du-boucher.jpg": [
+  992,
+  992
+ ],
+ "/media/plats/poulet-frites.jpg": [
+  1280,
+  1600
+ ],
+ "/media/plats/salade-poulet.jpg": [
+  962,
+  962
+ ],
+ "/media/plats/saumon-grille.jpg": [
+  967,
+  967
+ ],
+ "/media/plats/saumon-riz.jpg": [
+  1280,
+  1600
+ ],
+ "/media/plats/spaghetti-bolognaise.jpg": [
+  1200,
+  1500
+ ],
+ "/media/plats/steak-oeuf-a-cheval.jpg": [
+  1280,
+  1600
+ ],
+ "/media/plats/travers-de-porc.jpg": [
+  1600,
+  1600
+ ],
+ "/media/desserts/creme-brulee.jpg": [
+  974,
+  1054
+ ],
+ "/media/desserts/crepes.jpg": [
+  790,
+  790
+ ],
+ "/media/desserts/dessert-pistache.jpg": [
+  944,
+  953
+ ],
+ "/media/desserts/panna-cotta.jpg": [
+  972,
+  972
+ ],
+ "/media/cocktails/mojito-spritz.jpg": [
+  1157,
+  1157
+ ],
+ "/media/cocktails/sirops.jpg": [
+  720,
+  1280
+ ],
+ "/media/cafe/cafe.jpg": [
+  763,
+  776
+ ],
+ "/media/cafe/petit-dejeuner.jpg": [
+  1600,
+  1600
+ ],
+ "/media/terrasse/table-terrasse.jpg": [
+  1280,
+  1600
+ ],
+ "/media/terrasse/terrasse-soleil.jpg": [
+  640,
+  1136
+ ],
+ "/media/terrasse/terrasse-store-rouge.jpg": [
+  640,
+  1136
+ ],
+ "/media/soirees/assiette-barbecue.jpg": [
+  1086,
+  1086
+ ],
+ "/media/facade/facade-soir.jpg": [
+  720,
+  640
+ ]
+}

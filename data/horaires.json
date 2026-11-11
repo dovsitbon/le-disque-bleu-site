@@ -1,0 +1,28 @@
+{
+  "_doc": "Horaires (heure de Paris). 1 = lundi … 7 = dimanche. summer : horaires d'été (jusqu'à 22 h) ; passez enabled à true et réglez from / to (AAAA-MM-JJ, inclus) : le site bascule tout seul pendant cette période. exceptions : fermetures ou horaires spéciaux datés, « closed » ou des créneaux. Le statut « Ouvert / Fermé », les heures de réservation et de retrait en dépendent.",
+  "timezone": "Europe/Paris",
+  "week": {
+    "1": [["07:00", "21:00"]],
+    "2": [["07:00", "21:00"]],
+    "3": [["07:00", "21:00"]],
+    "4": [["07:00", "21:00"]],
+    "5": [["07:00", "21:00"]],
+    "6": [["07:00", "21:00"]],
+    "7": [["07:30", "15:00"]]
+  },
+  "summer": {
+    "enabled": false,
+    "from": "2027-06-01",
+    "to": "2027-09-15",
+    "week": {
+      "1": [["07:00", "22:00"]],
+      "2": [["07:00", "22:00"]],
+      "3": [["07:00", "22:00"]],
+      "4": [["07:00", "22:00"]],
+      "5": [["07:00", "22:00"]],
+      "6": [["07:00", "22:00"]],
+      "7": [["07:30", "15:00"]]
+    }
+  },
+  "exceptions": []
+}

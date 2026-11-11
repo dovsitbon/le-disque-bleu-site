@@ -1,0 +1,474 @@
+{
+  "meta": {
+    "title": "Restaurant, brasserie and bar in Montmorency, place Roger Levanneur | Le Disque Bleu",
+    "description": "Le Disque Bleu: restaurant-brasserie, bar and tabac on place Roger Levanneur in Montmorency. Dish of the day, home-made burger, terrace, cocktails. Open 7 days a week from 7 am. Book on +33 1 75 40 78 27.",
+    "ogAlt": "A brasserie plate on the terrace of Le Disque Bleu, place Roger Levanneur, Montmorency"
+  },
+  "intro": { "skip": "Skip" },
+  "announce": { "close": "Close this banner", "pdj": "Dish of the day: {dish}" },
+  "nav": {
+    "carte": "Menu",
+    "pdj": "Dish of the day",
+    "cocktails": "Cocktails",
+    "soirees": "Events",
+    "infos": "Find us",
+    "reserve": "Book a table",
+    "reserveShort": "Book",
+    "order": "Order takeaway",
+    "orderShort": "Order",
+    "privat": "Private hire",
+    "gift": "Gift voucher",
+    "call": "Call",
+    "skip": "Skip to content",
+    "menu": "Open menu",
+    "close": "Close menu",
+    "lang": "Language",
+    "home": "Home",
+    "cart": "Your takeaway order: {n}"
+  },
+  "hero": {
+    "eyebrow": "Restaurant · Brasserie · Bar · Tabac · Montmorency",
+    "title": "The brasserie on the square",
+    "sub": "A dish of the day, a home-made burger and a sunny terrace on place Roger Levanneur. From the 7 am coffee to the evening cocktail, seven days a week.",
+    "ctaReserve": "Book a table",
+    "ctaMenu": "See the menu"
+  },
+  "rating": { "label": "{value}/5 on Google", "count": "{count} reviews", "aria": "Google rating: {value} out of 5, {count} reviews" },
+  "status": {
+    "open": "Open now",
+    "closed": "Closed right now",
+    "until": "until {time}",
+    "opens": "opens {day} at {time}",
+    "today": "today",
+    "tomorrow": "tomorrow"
+  },
+  "tiles": {
+    "title": "On the menu",
+    "items": {
+      "pdj": "Dish of the day",
+      "plats": "Burgers and mains",
+      "salades": "Salads",
+      "desserts": "Home-made desserts",
+      "cocktails": "Cocktails and bar",
+      "cafe": "Breakfast and coffee"
+    }
+  },
+  "services": {
+    "title": "The house in four points",
+    "items": [
+      { "title": "7 days a week, from 7 am", "text": "Morning coffee, lunch, an evening drink. Sundays until 3 pm." },
+      { "title": "A terrace on the square", "text": "Marble tables in the sun, under the red awning." },
+      { "title": "Takeaway", "text": "Order online or by phone, then pick your meal up." },
+      { "title": "Bar and tabac", "text": "The counter, the cocktails, and the tobacconist's open all day." }
+    ]
+  },
+  "pdj": {
+    "eyebrow": "Every lunchtime",
+    "title": "Dish of the day",
+    "todayLabel": "Today",
+    "text": "A proper brasserie dish, cooked that very morning: veal chop, ox tongue, beef bourguignon, mussels and chips… It changes every day.",
+    "monday": "And every Monday, our home-made couscous royal.",
+    "cta": "Book for lunch",
+    "call": "Ask for today's dish"
+  },
+  "carte": {
+    "eyebrow": "The menu",
+    "title": "Home-made, served with a smile",
+    "intro": "Brasserie classics, pasta, a burger whose bun we bake ourselves, and desserts straight from our kitchen.",
+    "seeFull": "Full menu",
+    "tabsLabel": "Menu sections",
+    "tabs": { "midi": "Lunch", "plats": "Mains", "burgers": "Burgers", "salades": "Salads", "desserts": "Desserts", "cocktails": "Cocktails", "boissons": "Drinks" },
+    "notes": {
+      "midi": "The dish of the day changes every lunchtime. The other dishes here often come back on the board: ask us which one is on today.",
+      "plats": "Served all week, lunch and dinner.",
+      "burgers": "Patty, bun and chips: all made here.",
+      "salades": "Several salads depending on the season. Ask in the restaurant.",
+      "desserts": "All home-made. Crêpes are served every day from 3 pm.",
+      "cocktails": "With or without alcohol. Please drink responsibly.",
+      "boissons": "From the first coffee to the last round."
+    },
+    "tags": { "house": "Home-made", "monday": "Mondays", "board": "On the board", "share": "To share", "noalcohol": "Alcohol-free", "afternoon": "From 3 pm" },
+    "add": "Add",
+    "addAria": "Add {name} to your takeaway order",
+    "removeAria": "Remove one {name}",
+    "inCart": "{n} in your order",
+    "priceNote": "Expect €10 to €20 per person. Prices are displayed in the restaurant.",
+    "priceOnSite": "Price in the restaurant",
+    "cartBar": { "one": "1 item to take away", "many": "{n} items to take away" },
+    "cartCta": "Complete my order"
+  },
+  "products": {
+    "plat-du-jour": { "name": "Dish of the day", "desc": "Cooked in the morning, written on the board. Just ask." },
+    "couscous-royal": { "name": "Couscous royal", "desc": "Semolina, vegetable broth, roast chicken and merguez. Every Monday." },
+    "cote-de-veau": { "name": "Veal chop with shallot sauce", "desc": "Home-made mash and peas." },
+    "langue-de-boeuf": { "name": "Ox tongue", "desc": "Mushroom sauce, home-made mash and salad." },
+    "boeuf-bourguignon": { "name": "Beef bourguignon", "desc": "Slow-cooked in its sauce, served with spaghetti." },
+    "travers-de-porc": { "name": "Pork ribs", "desc": "Oven-roasted potatoes." },
+    "jambon-grille": { "name": "Grilled ham with port sauce", "desc": "Home-made chips and salad." },
+    "boulettes-spaghetti": { "name": "Home-made beef meatballs", "desc": "Spaghetti and tomato sauce." },
+    "paella": { "name": "Home-made paella", "desc": "Saffron rice, chicken, mussels and prawns." },
+    "choucroute": { "name": "Choucroute garnie", "desc": "Sauerkraut, sausages, bacon and potatoes." },
+    "moules-frites": { "name": "Mussels and chips", "desc": "Served with home-made chips." },
+    "lasagne": { "name": "Lasagne bolognese", "desc": "Baked until golden, with a green salad." },
+    "piece-du-boucher": { "name": "Butcher's cut steak", "desc": "Parsley butter, chips and salad." },
+    "steak-oeuf-a-cheval": { "name": "Chopped steak with a fried egg", "desc": "Home-made chips and salad." },
+    "andouillette": { "name": "Grilled andouillette sausage", "desc": "Home-made chips and fresh salad." },
+    "escalope-normande": { "name": "Chicken escalope à la normande", "desc": "Cream and mushroom sauce, home-made chips." },
+    "escalope-milanaise": { "name": "Escalope milanese", "desc": "Breaded, with penne in tomato sauce." },
+    "poulet-frites": { "name": "Roast chicken leg", "desc": "Home-made chips and salad." },
+    "saumon-grille": { "name": "Grilled salmon", "desc": "Fresh vegetables and tender potatoes." },
+    "saumon-dieppoise": { "name": "Salmon fillet with dieppoise sauce", "desc": "Mussels and fresh tagliatelle." },
+    "carpaccio": { "name": "Beef carpaccio", "desc": "Fresh tomatoes, mozzarella and rocket." },
+    "pates-pesto": { "name": "Pesto pasta", "desc": "Cherry tomatoes, basil and parmesan." },
+    "penne-champignons": { "name": "Penne with creamy mushrooms", "desc": "Cream sauce and parsley." },
+    "spaghetti-bolognaise": { "name": "Spaghetti bolognese", "desc": "Home-made sauce and parmesan." },
+    "planche-charcuterie": { "name": "Charcuterie board", "desc": "Cured meats and cheese, to share over a drink." },
+    "burger-maison": { "name": "Home-made burger", "desc": "Beef patty, cheddar, red onion, a bun baked here. Home-made chips." },
+    "salade-poulet": { "name": "Grilled chicken salad", "desc": "Fresh leaves, cucumber, tomatoes, red onion." },
+    "creme-brulee": { "name": "Crème brûlée", "desc": "Caramelised to order." },
+    "panna-cotta": { "name": "Panna cotta", "desc": "Red berry coulis." },
+    "dessert-pistache": { "name": "Cream, chocolate and pistachio pot", "desc": "Silky cream, chocolate topping, crushed pistachios." },
+    "crepes": { "name": "Home-made crêpes", "desc": "Sugar, Nutella or jam." },
+    "cafe-gourmand": { "name": "Café gourmand", "desc": "A coffee with a few small sweets." },
+    "mojito": { "name": "Mojito", "desc": "Rum, lemon, lime, mint, sugar, soda water." },
+    "spritz": { "name": "Spritz", "desc": "The orange glass of late afternoons on the terrace." },
+    "pina-colada": { "name": "Piña colada", "desc": "Rum, coconut, cream, pineapple juice." },
+    "fun-on-the-beach": { "name": "Fun on the Beach", "desc": "Vodka, passion fruit, papaya, banana, pineapple and orange juice." },
+    "swimming-pool": { "name": "Swimming Pool", "desc": "Vodka, rum, blue curaçao, coconut, pineapple juice." },
+    "virgin-mojito": { "name": "Virgin mojito", "desc": "Lemon, lime, mint, sugar, soda water." },
+    "coconut-island": { "name": "Coconut Island", "desc": "Coconut milk and pulp, cream, pineapple juice." },
+    "surfers-dream": { "name": "Surfers Dream", "desc": "Strawberry, peach, cream, pineapple juice." },
+    "evening-sun": { "name": "Evening Sun", "desc": "Papaya, mango, passion fruit, pineapple, orange juice." },
+    "petit-dejeuner": { "name": "Breakfast deal", "desc": "Croissant or pain au chocolat, fresh orange juice, hot drink." },
+    "cafe": { "name": "Coffee", "desc": "Espresso, long, macchiato, white." },
+    "cappuccino": { "name": "Cappuccino", "desc": "Milk foam and cocoa." },
+    "chocolat-chaud": { "name": "Hot chocolate", "desc": "" },
+    "orange-pressee": { "name": "Fresh orange juice", "desc": "Squeezed to order." },
+    "citronnade": { "name": "Lemonade and cordials", "desc": "Strawberry or lemon, served cold." },
+    "bieres": { "name": "Beers", "desc": "On tap and bottled." },
+    "vins": { "name": "Wines", "desc": "By the glass or the bottle." }
+  },
+  "blocks": {
+    "maison": {
+      "eyebrow": "In the kitchen",
+      "title": "Home-made, and we mean it",
+      "text": "We make every part of the burger: the patty, the chips, even the bun. The sauces simmer here, and so do the desserts.",
+      "cta": "See the menu"
+    },
+    "terrasse": {
+      "eyebrow": "Outside",
+      "title": "The terrace on the square",
+      "text": "Marble tables, woven chairs and the sun of place Roger Levanneur. Come for a coffee, stay for lunch, linger a while.",
+      "cta": "Book a table"
+    },
+    "bar": {
+      "eyebrow": "At the counter",
+      "title": "The bar and the cocktails",
+      "text": "Mojito, spritz, piña colada, and a list of alcohol-free cocktails. With a charcuterie board if you fancy one.",
+      "cta": "See the cocktails"
+    }
+  },
+  "events": {
+    "eyebrow": "Evenings and events",
+    "title": "The nights the square comes alive",
+    "intro": "A barbecue on the terrace, a Portuguese night, a DJ on the decks: several times a year, Le Disque Bleu stays open late and pulls out all the stops.",
+    "soon": "Next date announced soon",
+    "cta": "Book for the evening",
+    "ctaSoon": "Ask us by phone",
+    "follow": "Dates are announced on Instagram",
+    "kinds": {
+      "portugaise": { "title": "Portuguese night", "text": "Barbecue grills, generous plates and home-made chips. The last one was a full house." },
+      "barbecue": { "title": "Barbecue on the square", "text": "On fine days the barbecue moves outside and the terrace spreads across the square." },
+      "dj": { "title": "Dance nights", "text": "Eighties, noughties, Beaujolais night: a DJ, an evening menu, and the whole room dancing." },
+      "beaujolais": { "title": "Beaujolais night", "text": "Beaujolais nouveau, a beef bourguignon and live music." },
+      "couscous": { "title": "Couscous and DJ night", "text": "Home-made couscous and a great atmosphere." }
+    },
+    "privat": {
+      "eyebrow": "Groups and private hire",
+      "title": "Hire Le Disque Bleu",
+      "text": "A birthday, a leaving do, a team or family meal: tell us the date and the number of guests and we'll come back with a proposal. We also deliver our home-made burgers and chips for your parties.",
+      "cta": "Ask about private hire"
+    }
+  },
+  "team": {
+    "eyebrow": "The house",
+    "title": "You're always welcome here",
+    "text": [
+      "Le Disque Bleu is the café where they know your face. Your espresso arrives before you ask, the sunny table is kept for you, and every single review gets a personal reply.",
+      "In the kitchen, the chef prepares the dish of the day each morning from fresh produce. Monday means couscous royal: the vegetable broth is on the stove from opening time."
+    ],
+    "cta": "Follow us on Instagram"
+  },
+  "reviews": {
+    "eyebrow": "Customer reviews",
+    "title": "{value}/5 on Google, {count} reviews",
+    "text": "What comes up most: the dishes of the day, the welcome and the terrace. Thank you to everyone who takes the time to write.",
+    "cta": "Read the reviews on Google"
+  },
+  "infos": {
+    "eyebrow": "Practical information",
+    "title": "Find us",
+    "address": "Address",
+    "phone": "Phone",
+    "hours": "Opening hours",
+    "summer": "In summer, open until 10 pm Monday to Saturday.",
+    "access": "Getting here and parking",
+    "accessText": "On place Roger Levanneur, in the centre of Montmorency. Parking is available on the square and in the nearby streets.",
+    "servicesTitle": "On site",
+    "servicesList": ["Restaurant and brasserie", "Terrace", "Takeaway", "Bar", "Tabac"],
+    "route": "Directions",
+    "mapTitle": "Le Disque Bleu on Google Maps",
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+    "closed": "Closed"
+  },
+  "faq": {
+    "eyebrow": "Frequently asked",
+    "title": "Good to know",
+    "items": [
+      { "q": "Do I need to book?", "a": "You don't have to, but it's safer at lunchtime, at weekends and on event nights. Book online or on +33 1 75 40 78 27; we call you back to confirm." },
+      { "q": "Do you take groups?", "a": "Yes. For more than 12 people, use the group request: we'll sort out the table, the menu and the time with you." },
+      { "q": "Can the restaurant be hired privately?", "a": "Yes, for a birthday, drinks or a company meal. Send us the date, the number of guests and your budget, and we'll reply with a proposal." },
+      { "q": "What is the dish of the day?", "a": "It changes every lunchtime and goes up on the board each morning. Call us, or check our Instagram stories. On Mondays it's couscous royal." },
+      { "q": "Do you offer takeaway and delivery?", "a": "Takeaway, yes: order online or by phone and pick your meal up. For delivery, call us and we'll tell you what's possible." },
+      { "q": "Is the terrace open all year?", "a": "It's set up on the square whenever the weather allows, sheltered under the awning. In summer we stay open until 10 pm." },
+      { "q": "Which payment methods do you accept?", "a": "Bank cards and cash. For French meal vouchers, please ask us by phone." }
+    ]
+  },
+  "footer": {
+    "tagline": "Restaurant · Bar · Tabac · Montmorency",
+    "hours": "Opening hours",
+    "contact": "Contact",
+    "explore": "The site",
+    "legal": "Legal notice",
+    "instagram": "Instagram",
+    "rights": "All rights reserved.",
+    "alcohol": "Alcohol abuse is dangerous for your health. Please drink responsibly."
+  },
+  "form": {
+    "required": "Required",
+    "optional": "optional",
+    "name": "Name",
+    "phone": "Phone",
+    "email": "Email",
+    "message": "Message",
+    "date": "Date",
+    "time": "Time",
+    "guests": "Number of guests",
+    "chooseTime": "Choose a time",
+    "noTime": "No slot that day",
+    "errors": {
+      "name": "Please enter your name.",
+      "phone": "Please enter a valid phone number.",
+      "email": "This email address doesn't look right.",
+      "date": "Please choose a date.",
+      "time": "Please choose a time.",
+      "guests": "Please enter the number of guests.",
+      "cart": "Add at least one item.",
+      "type": "Please choose a type of event."
+    },
+    "sending": "Sending…",
+    "failed": "Your request didn't go through. Call us on +33 1 75 40 78 27 and we'll take it straight away.",
+    "orCall": "Prefer the phone?",
+    "privacy": "Your details are only used to handle your request.",
+    "again": "Send another request",
+    "payOnSite": "You pay in the restaurant."
+  },
+  "resa": {
+    "title": "Book a table",
+    "service": "Service",
+    "services": { "lunch": "Lunch", "dinner": "Dinner" },
+    "area": "Where would you like to sit?",
+    "areas": { "any": "No preference", "terrace": "On the terrace", "inside": "Inside" },
+    "occasion": "Occasion",
+    "occasionPh": "Birthday, business lunch…",
+    "messagePh": "High chair, allergy, arrival time…",
+    "big": "More than 12 of you? Use the group request.",
+    "submit": "Send my request",
+    "doneTitle": "Request received",
+    "done": "We'll call you back to confirm your table. If you haven't heard from us before the service, call +33 1 75 40 78 27.",
+    "doneNoMail": "Your request is saved. To be sure of your table, please confirm by phone on +33 1 75 40 78 27.",
+    "mail": {
+      "subject": "Booking",
+      "title": "New booking request",
+      "date": "Date",
+      "service": "Service",
+      "time": "Time",
+      "guests": "Guests",
+      "area": "Seating",
+      "occasion": "Occasion",
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email",
+      "message": "Message",
+      "lang": "Customer language",
+      "confirmSubject": "Your booking request at Le Disque Bleu",
+      "confirmIntro": "Hello {name},\n\nWe've received your booking request. We'll call you back to confirm it.",
+      "confirmOutro": "See you soon,\nLe Disque Bleu\n8 place Roger Levanneur, 95160 Montmorency, France\n+33 1 75 40 78 27"
+    }
+  },
+  "order": {
+    "title": "Order takeaway",
+    "cart": "Your order",
+    "empty": "Your order is empty. Add dishes from the menu.",
+    "toMenu": "Choose from the menu",
+    "addMore": "Add more dishes",
+    "pickupDay": "Pick-up day",
+    "pickupTime": "Pick-up time",
+    "messagePh": "How you like it cooked, sauce on the side, dish of the day wanted…",
+    "total": "Estimated total",
+    "submit": "Send my order",
+    "doneTitle": "Order received",
+    "done": "We'll have it ready for the time you chose and call you if a dish is missing. You pay in the restaurant.",
+    "doneNoMail": "Your order is saved. To be sure it's ready, please confirm by phone on +33 1 75 40 78 27.",
+    "mail": {
+      "subject": "Takeaway order",
+      "title": "New takeaway order",
+      "lines": "Order",
+      "pickup": "Pick-up",
+      "total": "Estimated total",
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email",
+      "message": "Notes",
+      "confirmSubject": "Your takeaway order at Le Disque Bleu",
+      "confirmIntro": "Hello {name},\n\nWe've received your order. It will be ready at the time you chose.",
+      "confirmOutro": "You pay in the restaurant.\n\nSee you shortly,\nLe Disque Bleu\n8 place Roger Levanneur, 95160 Montmorency, France\n+33 1 75 40 78 27"
+    }
+  },
+  "privat": {
+    "title": "Private hire and groups",
+    "type": "Type of event",
+    "types": { "birthday": "Birthday", "drinks": "Drinks or after-work", "company": "Company meal", "family": "Family meal", "evening": "Themed night", "other": "Other" },
+    "budget": "Budget per person",
+    "budgetPh": "E.g. €30",
+    "messagePh": "Timing, menu you have in mind, music, burger delivery…",
+    "submit": "Send my request",
+    "doneTitle": "Request received",
+    "done": "We'll come back to you with a proposal. If your date is close, call us on +33 1 75 40 78 27.",
+    "doneNoMail": "Your request is saved. To talk it through, call us on +33 1 75 40 78 27.",
+    "mail": {
+      "subject": "Private hire",
+      "title": "New private hire request",
+      "date": "Date",
+      "type": "Event",
+      "guests": "Guests",
+      "budget": "Budget per person",
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email",
+      "message": "Message",
+      "confirmSubject": "Your private hire request at Le Disque Bleu",
+      "confirmIntro": "Hello {name},\n\nWe've received your request. We'll come back to you with a proposal.",
+      "confirmOutro": "See you soon,\nLe Disque Bleu\n8 place Roger Levanneur, 95160 Montmorency, France\n+33 1 75 40 78 27"
+    }
+  },
+  "pages": {
+    "carte": {
+      "title": "Menu",
+      "metaTitle": "Menu: mains, home-made burger, desserts and cocktails | Le Disque Bleu, Montmorency",
+      "metaDescription": "The menu at Le Disque Bleu in Montmorency: dish of the day, steak, home-made burger, pasta, salads, home-made desserts, cocktails. Eat in or take away.",
+      "h1": "The menu",
+      "intro": "A dish of the day at lunch, brasserie classics all week, home-made desserts and cocktails. Dishes marked with a “+” can be ordered to take away."
+    },
+    "reserver": {
+      "title": "Book a table",
+      "metaTitle": "Book a table in Montmorency | Le Disque Bleu",
+      "metaDescription": "Book your table at Le Disque Bleu, place Roger Levanneur in Montmorency: lunch or dinner, inside or on the terrace. Confirmed by phone.",
+      "h1": "Book a table",
+      "intro": "Lunch or dinner, inside or on the terrace. Send your request and we'll call you back to confirm."
+    },
+    "commander": {
+      "title": "Order takeaway",
+      "metaTitle": "Order takeaway in Montmorency | Le Disque Bleu",
+      "metaDescription": "Order takeaway from Le Disque Bleu: dish of the day, home-made burger, pasta, desserts. Pick up on place Roger Levanneur in Montmorency.",
+      "h1": "Order takeaway",
+      "intro": "Put your order together, choose a pick-up time and collect it at the counter. You pay in the restaurant."
+    },
+    "privatiser": {
+      "title": "Events and private hire",
+      "metaTitle": "Events, groups and private hire in Montmorency | Le Disque Bleu",
+      "metaDescription": "Portuguese night, barbecue on the square, dance nights: events at Le Disque Bleu in Montmorency. Private hire for birthdays, drinks and group meals.",
+      "h1": "Events and private hire",
+      "intro": "The house's own evenings, and yours: a birthday, drinks, a team meal. Tell us what you have in mind."
+    },
+    "restaurant": {
+      "title": "Restaurant in Montmorency",
+      "metaTitle": "Restaurant in Montmorency: dish of the day and home cooking | Le Disque Bleu",
+      "metaDescription": "Restaurant-brasserie in Montmorency (95160), place Roger Levanneur: dish of the day at lunch, home-made burger, steaks, pasta, home-made desserts. 4.5/5 on Google. Book online.",
+      "h1": "Restaurant in Montmorency, on place Roger Levanneur",
+      "intro": "A neighbourhood brasserie that cooks every day: a dish of the day at lunch, the classics all week, and couscous royal on Mondays.",
+      "sections": [
+        { "h": "A dish of the day, every lunchtime", "p": ["Each morning the chef writes a new dish on the board. In recent months it has been a veal chop with shallot sauce and home-made mash, ox tongue, beef bourguignon, mussels and chips, paella, choucroute garnie.", "Monday is always couscous royal: semolina, vegetable broth, roast chicken and merguez."] },
+        { "h": "A burger whose bun we bake too", "p": ["The home-made burger has become the most requested dish on the menu. The patty is shaped here, the bun comes out of our oven, the chips are cut and fried on site.", "Alongside it, the brasserie staples: a butcher's cut steak with parsley butter, grilled andouillette, chopped steak with a fried egg, grilled salmon, escalope milanese, and pasta for every taste."] },
+        { "h": "Lunch in Montmorency, inside or on the terrace", "p": ["Le Disque Bleu is at 8 place Roger Levanneur, in the centre of Montmorency (Val-d'Oise), a few minutes from Enghien-les-Bains, Soisy-sous-Montmorency and Deuil-la-Barre.", "We serve Monday to Saturday from 7 am to 9 pm and Sundays from 7:30 am to 3 pm. Expect €10 to €20 per person. Booking is advised at lunchtime and at weekends."] }
+      ],
+      "cta": "Book a table",
+      "cta2": "See the menu"
+    },
+    "bar": {
+      "title": "Bar and terrace in Montmorency",
+      "metaTitle": "Bar and terrace in Montmorency: cocktails, coffee, tabac | Le Disque Bleu",
+      "metaDescription": "Bar, terrace and tabac in Montmorency, place Roger Levanneur: coffee from 7 am, cocktails with or without alcohol, boards, home-made crêpes in the afternoon. Open 7 days a week.",
+      "h1": "Bar and terrace in Montmorency",
+      "intro": "Morning coffee, a drink on the terrace, an evening cocktail. And the tabac, open all day.",
+      "sections": [
+        { "h": "A terrace on place Roger Levanneur", "p": ["Round marble tables edged in brass, woven chairs, a red awning: the terrace of Le Disque Bleu looks onto the square and catches the sun for much of the day.", "People have breakfast here, lunch here, and order a home-made crêpe from 3 pm. In summer it stays open until 10 pm."] },
+        { "h": "Cocktails, with or without alcohol", "p": ["On the list: mojito, spritz, piña colada, Fun on the Beach, Swimming Pool. Plus four alcohol-free cocktails, from the virgin mojito to the Coconut Island.", "To go with them, a charcuterie board to share. Please drink responsibly."] },
+        { "h": "Coffee, breakfast and tabac", "p": ["From 7 am (7:30 am on Sundays), the counter serves coffee, cappuccino, hot chocolate and the breakfast deal: croissant or pain au chocolat, fresh orange juice and a hot drink.", "Le Disque Bleu is also the tobacconist's on the square."] }
+      ],
+      "cta": "Book a table",
+      "cta2": "See the cocktails"
+    },
+    "legal": {
+      "title": "Legal notice",
+      "metaTitle": "Legal notice | Le Disque Bleu, Montmorency",
+      "metaDescription": "Legal notice and personal data for the website of Le Disque Bleu, restaurant-brasserie in Montmorency.",
+      "h1": "Legal notice",
+      "intro": "",
+      "sections": [
+        { "h": "Publisher", "p": ["Le Disque Bleu, 8 place Roger Levanneur, 95160 Montmorency, France. Phone: +33 1 75 40 78 27.", "Company registration number (SIRET) and name of the publication director: being added."] },
+        { "h": "Hosting", "p": ["Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, USA."] },
+        { "h": "Personal data", "p": ["The information you enter in the forms (name, phone, email, message) is used only to handle your booking, your order or your private hire request. It is never sold or used for advertising.", "You can ask for it to be corrected or deleted by phone on +33 1 75 40 78 27 or in the restaurant.", "The site uses no advertising cookies or third-party trackers. The Google Maps map is loaded from Google's servers."] },
+        { "h": "Photos", "p": ["The photos on this site belong to Le Disque Bleu. Any reproduction requires its consent."] }
+      ]
+    }
+  },
+  "alt": {
+    "hero": "Chopped steak with a fried egg and home-made chips, served on the terrace of Le Disque Bleu",
+    "table-terrasse": "A brass-edged marble table and woven chairs on the terrace of Le Disque Bleu",
+    "terrasse-store-rouge": "The terrace of Le Disque Bleu under its red awning, place Roger Levanneur",
+    "terrasse-soleil": "The terrace of Le Disque Bleu in the sun",
+    "burger-maison": "Home-made burger and chips on a terrace table",
+    "salade-poulet": "Grilled chicken salad with tomatoes and cucumber",
+    "saumon-grille": "Grilled salmon with green asparagus and potatoes",
+    "pates-pesto": "Pesto pasta with cherry tomatoes and parmesan",
+    "andouillette": "Grilled andouillette with chips and salad",
+    "piece-du-boucher": "Steak with parsley butter, chips and salad",
+    "escalope-milanaise": "Escalope milanese with penne in tomato sauce",
+    "lasagne": "A slice of lasagne bolognese with green salad",
+    "paella": "A plate of paella with mussels and prawns",
+    "spaghetti-bolognaise": "Spaghetti bolognese with parmesan",
+    "travers-de-porc": "Pork ribs with oven-roasted potatoes",
+    "penne-champignons": "Penne with creamy mushrooms",
+    "saumon-riz": "Salmon fillet with vegetables and rice",
+    "steak-oeuf-a-cheval": "Chopped steak with a fried egg and home-made chips",
+    "poulet-frites": "Roast chicken leg with home-made chips",
+    "dessert-pistache": "A pot of cream with chocolate and pistachios",
+    "crepes": "Home-made crêpes with blueberries",
+    "panna-cotta": "Panna cotta with red berry coulis and fresh orange juice",
+    "creme-brulee": "Crème brûlée with a spoonful taken out",
+    "cafe": "A cup of white coffee on the counter",
+    "petit-dejeuner": "Breakfast: croissants, fresh orange juice and cappuccino",
+    "mojito-spritz": "A mojito and a spritz on a terrace table",
+    "sirops": "Two glasses of lemonade and cordial on the terrace",
+    "assiette-barbecue": "Plates of barbecue grills and home-made chips at the Portuguese night",
+    "facade-soir": "The front of Le Disque Bleu at dusk, red awning and lit terrace",
+    "salle": "The dining room at Le Disque Bleu",
+    "bar": "The bar at Le Disque Bleu",
+    "facade": "The front of Le Disque Bleu, place Roger Levanneur",
+    "equipe": "The team at Le Disque Bleu",
+    "soiree-dj": "A dance night at Le Disque Bleu",
+    "beaujolais": "Beaujolais night at Le Disque Bleu",
+    "couscous": "Home-made couscous royal"
+  }
+}

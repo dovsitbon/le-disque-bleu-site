@@ -1,0 +1,24 @@
+{
+  "_doc": "Soirées et événements. upcoming : les prochaines dates (copiez « _exemple ») ; une soirée passée disparaît toute seule. kind renvoie à un type ci-dessous (textes dans locales → events.kinds). Sans date à venir, le site présente les trois types de soirées « featured » avec « Prochaine date bientôt annoncée ». photo : chemin dans public/media (absent = disque au trait). past : repères tirés d'Instagram, non affichés.",
+  "upcoming": [],
+  "_exemple": { "kind": "portugaise", "date": "2027-02-12", "time": "19:30", "fr": "Brandade de morue ou entrecôte, DJ aux platines.", "en": "Salt-cod brandade or rib steak, with a DJ on the decks." },
+  "kinds": {
+    "portugaise": { "photo": "/media/soirees/assiette-barbecue.jpg" },
+    "barbecue": { "photo": "/media/facade/facade-soir.jpg" },
+    "dj": { "photo": "/media/soirees/soiree-dj.jpg" },
+    "beaujolais": { "photo": "/media/soirees/beaujolais.jpg" },
+    "couscous": { "photo": "/media/soirees/couscous.jpg" }
+  },
+  "featured": ["portugaise", "barbecue", "dj"],
+  "past": [
+    "Soirée portugaise, vendredi 13 février 2026, 19 h 30 : brandade de morue ou entrecôte, DJ Terry",
+    "Soirée Beaujolais, jeudi 20 novembre 2025, 20 h : bœuf bourguignon, musique sur place",
+    "Soirée couscous & DJ, samedi 15 novembre 2025, 20 h",
+    "Soirée dansante années 2000 avec DJ Terry, 8 février 2025, 19 h",
+    "Soirée dansante avec DJ Terry et paella maison, 7 décembre 2024, 19 h",
+    "Soirée années 70/80, 16 novembre 2024, 19 h",
+    "Soirée barbecue avec DJ, 20 septembre 2024, 19 h",
+    "Fête Montmartre à Montmorency, soirée barbecue, vendredi 28 juin 2024",
+    "Défilé de mode sur la place et grand barbecue, samedi 25 mai 2024"
+  ]
+}

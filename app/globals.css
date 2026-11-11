@@ -1,0 +1,426 @@
+@import "tailwindcss";
+
+/* Polices en local (public/fonts) : Playfair Display pour les titres, Jost pour le texte. Aucun appel à Google Fonts. */
+@font-face {
+  font-family: "Playfair Local";
+  src: url("/fonts/playfair-display-latin-wght-normal.woff2") format("woff2");
+  font-weight: 400 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Playfair Local";
+  src: url("/fonts/playfair-display-latin-wght-italic.woff2") format("woff2");
+  font-weight: 400 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Jost Local";
+  src: url("/fonts/jost-latin-wght-normal.woff2") format("woff2");
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@theme {
+  /* Charte tirée de ses photos : crème des murs, bleu du nom, rouge du store, laiton des tables, noir doux du logo. */
+  --color-cream: #f6f0e4;
+  --color-cream-deep: #ece3d0;
+  --color-paper: #fcf9f2;
+  --color-blue: #1c3d6e;
+  --color-blue-deep: #142c50;
+  --color-blue-soft: #dfe5ee;
+  --color-red: #a63a2b;
+  --color-brass: #b08d57;
+  /* Laiton foncé pour le petit texte : 5,3:1 sur crème */
+  --color-brass-ink: #74592c;
+  --color-ink: #1e1b18;
+  /* Texte courant : 7:1 sur crème */
+  --color-muted: #574f45;
+  --color-line: #dccfb6;
+
+  --font-body: "Jost Local", system-ui, sans-serif;
+  --font-display: "Playfair Local", Georgia, "Times New Roman", serif;
+
+  --ease-soft: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    color-scheme: light;
+    scroll-padding-top: 6.5rem;
+    scroll-behavior: smooth;
+  }
+  body {
+    background: var(--color-cream);
+    color: var(--color-ink);
+    font-family: var(--font-body);
+    font-size: 1.0625rem;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  a,
+  button,
+  label,
+  select,
+  input,
+  summary {
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
+  button {
+    cursor: pointer;
+  }
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
+  }
+  ::selection {
+    background: var(--color-blue);
+    color: var(--color-cream);
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-blue);
+    outline-offset: 3px;
+  }
+  [hidden] {
+    display: none !important;
+  }
+  input,
+  select,
+  textarea {
+    font: inherit;
+  }
+}
+
+@layer components {
+  /* Petite ligne au-dessus des titres : italique de carte de brasserie, rouge du store */
+  .eyebrow {
+    font-family: var(--font-display);
+    font-style: italic;
+    font-size: 1.125rem;
+    line-height: 1.3;
+    color: var(--color-red);
+  }
+  /* Petits intitulés (adresse, horaires…) : bas de casse, sans interlettrage */
+  .caps {
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.4;
+  }
+  /* La ligne d'enseigne du hero, seule ligne en capitales du site (comme sur le store) */
+  .sign {
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+  }
+  .display {
+    font-family: var(--font-display);
+    font-weight: 500;
+    line-height: 1.04;
+    letter-spacing: -0.015em;
+  }
+  .lead {
+    font-size: 1.125rem;
+    line-height: 1.65;
+    color: var(--color-muted);
+  }
+  .btn,
+  .btn-line,
+  .btn-light {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    min-height: 3rem;
+    padding: 0.7rem 1.5rem;
+    border: 1.5px solid transparent;
+    border-radius: 2px;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.15;
+    letter-spacing: 0.01em;
+    transition:
+      background-color 0.2s var(--ease-soft),
+      color 0.2s var(--ease-soft),
+      border-color 0.2s var(--ease-soft);
+  }
+  .btn {
+    background: var(--color-blue);
+    border-color: var(--color-blue);
+    color: var(--color-cream);
+  }
+  .btn:hover {
+    background: var(--color-blue-deep);
+    border-color: var(--color-blue-deep);
+  }
+  .btn-line {
+    border-color: var(--color-ink);
+    color: var(--color-ink);
+  }
+  .btn-line:hover {
+    background: var(--color-ink);
+    color: var(--color-cream);
+  }
+  .btn-light {
+    background: var(--color-cream);
+    border-color: var(--color-cream);
+    color: var(--color-blue-deep);
+  }
+  .btn-light:hover {
+    background: transparent;
+    color: var(--color-cream);
+  }
+  .btn:disabled {
+    opacity: 0.6;
+    cursor: progress;
+  }
+  .link-line {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.3em;
+    text-decoration-color: var(--color-brass);
+    transition: text-decoration-color 0.2s;
+  }
+  .link-line:hover {
+    text-decoration-color: currentColor;
+  }
+
+  /* Filet laiton avec un petit disque au centre : la séparation de la maison */
+  .rule {
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+    color: var(--color-brass);
+  }
+  .rule::before,
+  .rule::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: currentColor;
+    opacity: 0.6;
+  }
+
+  .field {
+    width: 100%;
+    min-height: 3rem;
+    border: 1px solid #b9ab90;
+    border-radius: 2px;
+    background: var(--color-paper);
+    padding: 0.6rem 0.85rem;
+    font-size: 1rem;
+    color: var(--color-ink);
+    transition: border-color 0.2s;
+  }
+  textarea.field {
+    min-height: 6.5rem;
+    resize: vertical;
+  }
+  select.field {
+    appearance: none;
+    background: var(--color-paper) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%231C3D6E' stroke-width='2' stroke-linecap='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E") no-repeat right 0.8rem center / 1.05rem;
+    padding-inline-end: 2.4rem;
+    cursor: pointer;
+  }
+  .field:focus {
+    outline: none;
+    border-color: var(--color-blue);
+    box-shadow: 0 0 0 1px var(--color-blue);
+  }
+  .field[aria-invalid="true"] {
+    border-color: var(--color-red);
+  }
+  .field::placeholder {
+    color: #7d7466;
+  }
+  .label {
+    display: block;
+    margin-bottom: 0.4rem;
+    font-size: 0.9375rem;
+    font-weight: 500;
+  }
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2.75rem;
+    padding: 0.4rem 1.05rem;
+    border: 1px solid #b9ab90;
+    border-radius: 2px;
+    background: var(--color-paper);
+    font-size: 0.9375rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition:
+      border-color 0.2s,
+      background-color 0.2s,
+      color 0.2s;
+  }
+  .chip:hover {
+    border-color: var(--color-blue);
+  }
+  .chip-on,
+  .chip:has(input:checked) {
+    border-color: var(--color-blue);
+    background: var(--color-blue);
+    color: var(--color-cream);
+  }
+  .chip:has(input:focus-visible) {
+    outline: 2px solid var(--color-blue);
+    outline-offset: 3px;
+  }
+  .tag {
+    font-size: 0.8125rem;
+    font-weight: 500;
+    color: var(--color-brass-ink);
+    white-space: nowrap;
+  }
+
+  /* Ligne de carte : nom, pointillés, prix */
+  .dots {
+    flex: 1;
+    min-width: 1.5rem;
+    border-bottom: 1px dotted #a2957c;
+    transform: translateY(-0.35em);
+  }
+
+  .zoom {
+    overflow: hidden;
+  }
+  .zoom img {
+    transition: transform 0.7s var(--ease-soft);
+  }
+  .group:hover .zoom img {
+    transform: scale(1.035);
+  }
+}
+
+/* Apparition au défilement (components/Reveal.tsx) */
+html.js .reveal:not(.in) {
+  opacity: 0;
+  transform: translateY(var(--reveal-y, 16px));
+}
+.reveal {
+  transition:
+    opacity 0.6s var(--ease-out) var(--reveal-delay, 0s),
+    transform 0.6s var(--ease-out) var(--reveal-delay, 0s);
+}
+.rise {
+  animation: rise 0.7s var(--ease-out) both;
+}
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+}
+.fade-in {
+  animation: fade-in 0.3s var(--ease-soft) both;
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+
+/* ——— Ouverture (1,2 s) : fond crème, le disque bleu se dessine au trait et tourne d'un demi-tour comme un vinyle,
+   « LE DISQUE BLEU » puis « MONTMORENCY » apparaissent, fondu sur le hero. Une fois par session. ——— */
+.intro-curtain {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-cream);
+  animation: intro-out 0.25s ease-out 0.95s forwards;
+}
+html.intro-seen .intro-curtain,
+html:not(.js) .intro-curtain {
+  display: none;
+}
+@keyframes intro-out {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+.intro-disc {
+  animation: intro-spin 0.7s var(--ease-out) 0.05s both;
+  transform-origin: center;
+}
+@keyframes intro-spin {
+  from {
+    transform: rotate(-180deg);
+  }
+}
+.intro-ring {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  animation: intro-draw 0.5s var(--ease-soft) 0.05s forwards;
+}
+.intro-ring-2 {
+  animation-delay: 0.18s;
+}
+@keyframes intro-draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+.intro-word {
+  opacity: 0;
+  transform: translateY(6px);
+  animation: intro-word 0.25s var(--ease-soft) 0.5s forwards;
+}
+.intro-word-2 {
+  animation-delay: 0.66s;
+}
+@keyframes intro-word {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* FAQ */
+details > summary {
+  list-style: none;
+  cursor: pointer;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+.faq-plus {
+  transition: transform 0.25s var(--ease-soft);
+}
+details[open] .faq-plus {
+  transform: rotate(45deg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  .intro-curtain {
+    display: none;
+  }
+  html.js .reveal:not(.in) {
+    opacity: 1;
+    transform: none;
+  }
+}

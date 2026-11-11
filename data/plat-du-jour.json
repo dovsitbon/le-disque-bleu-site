@@ -1,0 +1,16 @@
+{
+  "_doc": "Plat du jour. Ajoutez une entrée par jour dans « days » (copiez « _exemple », changez la date AAAA-MM-JJ et le plat) ; seule celle du jour s'affiche, ici et dans le bandeau du haut. Sans entrée pour aujourd'hui, le site affiche « fallback ». price : null = prix non affiché.",
+  "days": [],
+  "_exemple": {
+    "date": "2026-11-12",
+    "price": null,
+    "dish": {
+      "fr": "Côte de veau, sauce échalote, purée maison et petits pois",
+      "en": "Veal chop with shallot sauce, home-made mash and peas"
+    }
+  },
+  "fallback": {
+    "fr": "Il change chaque midi et s'écrit le matin sur l'ardoise. Un coup de fil et on vous le dit.",
+    "en": "It changes every lunchtime and goes up on the board each morning. Give us a ring and we'll tell you."
+  }
+}

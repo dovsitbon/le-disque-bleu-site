@@ -1,0 +1,41 @@
+{
+  "name": "le-disque-bleu-site",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Site vitrine, réservation et commande à emporter du Disque Bleu, restaurant-brasserie, bar et tabac, 8 place Roger Levanneur, Montmorency",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "media": "node scripts/media.mjs",
+    "contenu": "node scripts/contenu.mjs",
+    "affichette": "node scripts/affichette.mjs",
+    "logo": "node scripts/logo.mjs"
+  },
+  "dependencies": {
+    "motion": "^14.9.1",
+    "next": "16.4.4",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "resend": "^6.37.0"
+  },
+  "devDependencies": {
+    "@fontsource-variable/jost": "^5.2.5",
+    "@tailwindcss/turbopack": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.4",
+    "opentype.js": "^1.3.4",
+    "pdf-lib": "^1.17.1",
+    "qrcode": "^1.5.4",
+    "sharp": "^0.35.5",
+    "tailwindcss": "^4",
+    "typescript": "^5",
+    "@fontsource-variable/playfair-display": "^5.2.5",
+    "@fontsource/playfair-display": "^5.2.5",
+    "@fontsource/jost": "^5.2.5"
+  }
+}

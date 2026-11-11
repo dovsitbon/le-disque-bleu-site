@@ -1,0 +1,17 @@
+{
+  "_doc": "Bandeau d'infos en haut du site (refermable). Le premier message dont la période contient la date du jour s'affiche (from / to inclus, AAAA-MM-JJ) : prochaine soirée, fermeture, horaires d'été. Sinon : le plat du jour s'il est renseigné dans plat-du-jour.json, sinon « default ». Textes en fr et en.",
+  "items": [
+    {
+      "id": "ete-2027",
+      "from": "2027-06-01",
+      "to": "2027-09-15",
+      "fr": "C'est l'été : la terrasse reste ouverte jusqu'à 22 h, du lundi au samedi.",
+      "en": "Summer hours: the terrace stays open until 10 pm, Monday to Saturday."
+    }
+  ],
+  "default": {
+    "id": "couscous-lundi",
+    "fr": "Chaque lundi, le couscous royal maison. Pensez à réserver.",
+    "en": "Every Monday: our home-made couscous royal. Do book ahead."
+  }
+}

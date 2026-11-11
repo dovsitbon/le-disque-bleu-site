@@ -1,0 +1,5 @@
+{
+  "_doc": "Vrais avis clients, avec leur accord (aucun avis inventé). Copiez « _exemple » dans items.",
+  "_exemple": { "author": "Prénom N.", "date": "2026-05", "source": "Google", "fr": "…", "en": "…" },
+  "items": []
+}

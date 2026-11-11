@@ -1,0 +1,783 @@
+{
+  "meta": {
+    "title": "Restaurant, brasserie et bar à Montmorency, place Roger Levanneur | Le Disque Bleu",
+    "description": "Le Disque Bleu, restaurant-brasserie, bar et tabac sur la place Roger Levanneur à Montmorency. Plat du jour, burger maison, terrasse, cocktails. Ouvert 7 j/7 dès 7 h. Réservation au 01 75 40 78 27.",
+    "ogAlt": "Une assiette de brasserie sur la terrasse du Disque Bleu, place Roger Levanneur à Montmorency"
+  },
+  "intro": {
+    "skip": "Passer"
+  },
+  "announce": {
+    "close": "Fermer le bandeau",
+    "pdj": "Plat du jour : {dish}"
+  },
+  "nav": {
+    "carte": "La carte",
+    "pdj": "Plat du jour",
+    "cocktails": "Cocktails",
+    "soirees": "Soirées",
+    "infos": "Infos",
+    "reserve": "Réserver une table",
+    "reserveShort": "Réserver",
+    "order": "Commander à emporter",
+    "orderShort": "Commander",
+    "privat": "Privatiser",
+    "gift": "Bon cadeau",
+    "call": "Appeler",
+    "skip": "Aller au contenu",
+    "menu": "Ouvrir le menu",
+    "close": "Fermer le menu",
+    "lang": "Langue",
+    "home": "Accueil",
+    "cart": "Votre commande à emporter : {n}"
+  },
+  "hero": {
+    "eyebrow": "Restaurant · Brasserie · Bar · Tabac · Montmorency",
+    "title": "La brasserie de la place",
+    "sub": "Plat du jour, burger maison et terrasse au soleil, place Roger Levanneur. Du café de 7 h au cocktail du soir, 7 jours sur 7.",
+    "ctaReserve": "Réserver une table",
+    "ctaMenu": "Voir la carte"
+  },
+  "rating": {
+    "label": "{value}/5 sur Google",
+    "count": "{count} avis",
+    "aria": "Note Google : {value} sur 5, {count} avis"
+  },
+  "status": {
+    "open": "Ouvert maintenant",
+    "closed": "Fermé en ce moment",
+    "until": "jusqu'à {time}",
+    "opens": "ouvre {day} à {time}",
+    "today": "aujourd'hui",
+    "tomorrow": "demain"
+  },
+  "tiles": {
+    "title": "À la carte",
+    "items": {
+      "pdj": "Plat du jour",
+      "plats": "Burgers et plats",
+      "salades": "Salades",
+      "desserts": "Desserts maison",
+      "cocktails": "Cocktails et bar",
+      "cafe": "Petit-déjeuner et café"
+    }
+  },
+  "services": {
+    "title": "La maison en quatre points",
+    "items": [
+      {
+        "title": "7 jours sur 7, dès 7 h",
+        "text": "Le café du matin, le déjeuner, le verre du soir. Le dimanche jusqu'à 15 h."
+      },
+      {
+        "title": "Terrasse sur la place",
+        "text": "Des tables en marbre au soleil, sous le store rouge."
+      },
+      {
+        "title": "À emporter",
+        "text": "Commandez en ligne ou par téléphone, passez prendre votre plat."
+      },
+      {
+        "title": "Bar et tabac",
+        "text": "Le comptoir, les cocktails, et le tabac ouvert toute la journée."
+      }
+    ]
+  },
+  "pdj": {
+    "eyebrow": "Tous les midis",
+    "title": "Le plat du jour",
+    "todayLabel": "Aujourd'hui",
+    "text": "Un vrai plat de brasserie, cuisiné le matin même : côte de veau, langue de bœuf, bœuf bourguignon, moules frites… Il change chaque jour.",
+    "monday": "Et tous les lundis, le couscous royal maison.",
+    "cta": "Réserver pour ce midi",
+    "call": "Demander le plat du jour"
+  },
+  "carte": {
+    "eyebrow": "La carte",
+    "title": "Fait maison, servi avec le sourire",
+    "intro": "Les classiques de brasserie, les pâtes, le burger dont on fait aussi le pain, et des desserts qui sortent de notre cuisine.",
+    "seeFull": "Toute la carte",
+    "tabsLabel": "Rubriques de la carte",
+    "tabs": {
+      "midi": "Midi",
+      "plats": "Plats",
+      "burgers": "Burgers",
+      "salades": "Salades",
+      "desserts": "Desserts",
+      "cocktails": "Cocktails",
+      "boissons": "Boissons"
+    },
+    "notes": {
+      "midi": "Le plat du jour change chaque midi. Les autres plats de cette page reviennent souvent à l'ardoise : demandez-nous lequel est au menu aujourd'hui.",
+      "plats": "Servis toute la semaine, midi et soir.",
+      "burgers": "Steak, pain et frites : tout est fait ici.",
+      "salades": "Plusieurs salades composées selon la saison, à découvrir sur place.",
+      "desserts": "Faits maison. Les crêpes sont servies tous les jours à partir de 15 h.",
+      "cocktails": "Avec ou sans alcool. L'abus d'alcool est dangereux pour la santé, à consommer avec modération.",
+      "boissons": "Du premier café à la dernière tournée."
+    },
+    "tags": {
+      "house": "Fait maison",
+      "monday": "Le lundi",
+      "board": "À l'ardoise",
+      "share": "À partager",
+      "noalcohol": "Sans alcool",
+      "afternoon": "Dès 15 h"
+    },
+    "add": "Ajouter",
+    "addAria": "Ajouter {name} à la commande à emporter",
+    "removeAria": "Retirer un {name}",
+    "inCart": "{n} dans la commande",
+    "priceNote": "Comptez 10 à 20 € par personne. Les prix sont affichés sur place.",
+    "priceOnSite": "Prix sur place",
+    "cartBar": {
+      "one": "1 article à emporter",
+      "many": "{n} articles à emporter"
+    },
+    "cartCta": "Finaliser la commande"
+  },
+  "products": {
+    "plat-du-jour": {
+      "name": "Le plat du jour",
+      "desc": "Cuisiné le matin, écrit sur l'ardoise. Demandez-le-nous."
+    },
+    "couscous-royal": {
+      "name": "Couscous royal",
+      "desc": "Semoule, bouillon de légumes, poulet rôti et merguez. Tous les lundis."
+    },
+    "cote-de-veau": {
+      "name": "Côte de veau, sauce échalote",
+      "desc": "Purée maison et petits pois."
+    },
+    "langue-de-boeuf": {
+      "name": "Langue de bœuf",
+      "desc": "Sauce aux champignons, purée maison et salade."
+    },
+    "boeuf-bourguignon": {
+      "name": "Bœuf bourguignon",
+      "desc": "Mijoté dans sa sauce, servi avec des spaghettis."
+    },
+    "travers-de-porc": {
+      "name": "Travers de porc",
+      "desc": "Pommes de terre au four."
+    },
+    "jambon-grille": {
+      "name": "Jambon grillé, sauce porto",
+      "desc": "Frites maison et salade."
+    },
+    "boulettes-spaghetti": {
+      "name": "Boulettes de bœuf maison",
+      "desc": "Spaghettis et sauce tomate."
+    },
+    "paella": {
+      "name": "Paella maison",
+      "desc": "Riz safrané, poulet, moules et crevettes."
+    },
+    "choucroute": {
+      "name": "Choucroute garnie",
+      "desc": "Chou, saucisses, lard et pommes de terre."
+    },
+    "moules-frites": {
+      "name": "Moules frites",
+      "desc": "Servies avec des frites maison."
+    },
+    "lasagne": {
+      "name": "Lasagne bolognaise",
+      "desc": "Gratinée, servie avec une salade verte."
+    },
+    "piece-du-boucher": {
+      "name": "Pièce du boucher",
+      "desc": "Beurre maître d'hôtel, frites et salade."
+    },
+    "steak-oeuf-a-cheval": {
+      "name": "Steak haché, œuf à cheval",
+      "desc": "Frites maison et salade."
+    },
+    "andouillette": {
+      "name": "Andouillette grillée",
+      "desc": "Frites maison et salade fraîche."
+    },
+    "escalope-normande": {
+      "name": "Escalope de poulet à la normande",
+      "desc": "Sauce crème et champignons, frites maison."
+    },
+    "escalope-milanaise": {
+      "name": "Escalope milanaise",
+      "desc": "Panée, avec des penne à la sauce tomate."
+    },
+    "poulet-frites": {
+      "name": "Cuisse de poulet rôtie",
+      "desc": "Frites maison et salade."
+    },
+    "saumon-grille": {
+      "name": "Saumon grillé",
+      "desc": "Légumes frais et pommes de terre fondantes."
+    },
+    "saumon-dieppoise": {
+      "name": "Pavé de saumon, sauce dieppoise",
+      "desc": "Moules et tagliatelles fraîches."
+    },
+    "carpaccio": {
+      "name": "Carpaccio de bœuf",
+      "desc": "Tomates fraîches, mozzarella et roquette."
+    },
+    "pates-pesto": {
+      "name": "Pâtes au pesto",
+      "desc": "Tomates cerises, basilic et parmesan."
+    },
+    "penne-champignons": {
+      "name": "Penne à la crème de champignons",
+      "desc": "Sauce crémeuse, persil."
+    },
+    "spaghetti-bolognaise": {
+      "name": "Spaghettis bolognaise",
+      "desc": "Sauce maison et parmesan."
+    },
+    "planche-charcuterie": {
+      "name": "Planche de charcuterie",
+      "desc": "Charcuteries et fromage, à partager à l'apéritif."
+    },
+    "burger-maison": {
+      "name": "Burger maison",
+      "desc": "Steak, cheddar, oignons rouges, pain fait ici. Frites maison."
+    },
+    "salade-poulet": {
+      "name": "Salade au poulet grillé",
+      "desc": "Salades fraîches, concombre, tomates, oignons rouges."
+    },
+    "creme-brulee": {
+      "name": "Crème brûlée",
+      "desc": "Caramélisée à la commande."
+    },
+    "panna-cotta": {
+      "name": "Panna cotta",
+      "desc": "Coulis de fruits rouges."
+    },
+    "dessert-pistache": {
+      "name": "Coupe crème, chocolat et pistaches",
+      "desc": "Crème onctueuse, nappage chocolat, éclats de pistache."
+    },
+    "crepes": {
+      "name": "Crêpes maison",
+      "desc": "Sucre, Nutella ou confiture."
+    },
+    "cafe-gourmand": {
+      "name": "Café gourmand",
+      "desc": "Un café et ses petites douceurs."
+    },
+    "mojito": {
+      "name": "Mojito",
+      "desc": "Rhum, citron, citron vert, menthe, sucre, eau gazeuse."
+    },
+    "spritz": {
+      "name": "Spritz",
+      "desc": "Le verre orange des fins d'après-midi en terrasse."
+    },
+    "pina-colada": {
+      "name": "Piña colada",
+      "desc": "Rhum, coco, crème, jus d'ananas."
+    },
+    "fun-on-the-beach": {
+      "name": "Fun on the Beach",
+      "desc": "Vodka, maracuja, papaye, banane, jus d'ananas et d'orange."
+    },
+    "swimming-pool": {
+      "name": "Swimming Pool",
+      "desc": "Vodka, rhum, curaçao bleu, coco, jus d'ananas."
+    },
+    "virgin-mojito": {
+      "name": "Virgin mojito",
+      "desc": "Citron, citron vert, menthe, sucre, eau gazeuse."
+    },
+    "coconut-island": {
+      "name": "Coconut Island",
+      "desc": "Lait et pulpe de coco, crème, jus d'ananas."
+    },
+    "surfers-dream": {
+      "name": "Surfers Dream",
+      "desc": "Fraise, pêche, crème, jus d'ananas."
+    },
+    "evening-sun": {
+      "name": "Evening Sun",
+      "desc": "Papaye, mangue, fruit de la passion, ananas, jus d'orange."
+    },
+    "petit-dejeuner": {
+      "name": "Formule petit-déjeuner",
+      "desc": "Croissant ou pain au chocolat, jus d'orange pressé, boisson chaude."
+    },
+    "cafe": {
+      "name": "Café",
+      "desc": "Expresso, allongé, noisette, crème."
+    },
+    "cappuccino": {
+      "name": "Cappuccino",
+      "desc": "Mousse de lait et cacao."
+    },
+    "chocolat-chaud": {
+      "name": "Chocolat chaud",
+      "desc": ""
+    },
+    "orange-pressee": {
+      "name": "Jus d'orange pressé",
+      "desc": "Pressé à la commande."
+    },
+    "citronnade": {
+      "name": "Citronnade et sirops",
+      "desc": "Fraise ou citron, bien frais."
+    },
+    "bieres": {
+      "name": "Bières",
+      "desc": "À la pression et en bouteille."
+    },
+    "vins": {
+      "name": "Vins",
+      "desc": "Au verre ou à la bouteille."
+    }
+  },
+  "blocks": {
+    "maison": {
+      "eyebrow": "En cuisine",
+      "title": "Le fait maison, pour de bon",
+      "text": "Le burger, on en fait tout : le steak, les frites, et même le pain. Les sauces mijotent ici, les desserts aussi.",
+      "cta": "Voir la carte"
+    },
+    "terrasse": {
+      "eyebrow": "Dehors",
+      "title": "La terrasse sur la place",
+      "text": "Des tables en marbre, des chaises tressées et le soleil de la place Roger Levanneur. On y prend le café, on y déjeune, on y reste.",
+      "cta": "Réserver une table"
+    },
+    "bar": {
+      "eyebrow": "Au comptoir",
+      "title": "Le bar et les cocktails",
+      "text": "Mojito, spritz, piña colada, et une carte de cocktails sans alcool. Avec une planche de charcuterie si le cœur vous en dit.",
+      "cta": "Voir les cocktails"
+    }
+  },
+  "events": {
+    "eyebrow": "Soirées et événements",
+    "title": "Les soirs où la place s'anime",
+    "intro": "Barbecue sur la terrasse, soirée portugaise, DJ aux platines : plusieurs fois dans l'année, le Disque Bleu reste ouvert tard et sort le grand jeu.",
+    "soon": "Prochaine date bientôt annoncée",
+    "cta": "Réserver pour la soirée",
+    "ctaSoon": "Être prévenu par téléphone",
+    "follow": "Les dates sont annoncées sur Instagram",
+    "kinds": {
+      "portugaise": {
+        "title": "Soirée portugaise",
+        "text": "Grillades au barbecue, assiettes généreuses et frites maison. La dernière a fait le plein."
+      },
+      "barbecue": {
+        "title": "Barbecue sur la place",
+        "text": "Aux beaux jours, le barbecue s'installe dehors et la terrasse s'étend sur la place."
+      },
+      "dj": {
+        "title": "Soirées dansantes",
+        "text": "Années 80, années 2000, soirée Beaujolais : un DJ, un menu du soir, et la salle qui danse."
+      },
+      "beaujolais": {
+        "title": "Soirée Beaujolais",
+        "text": "Le Beaujolais nouveau, un bœuf bourguignon et de la musique."
+      },
+      "couscous": {
+        "title": "Soirée couscous et DJ",
+        "text": "Couscous maison et ambiance garantie."
+      }
+    },
+    "privat": {
+      "eyebrow": "Groupes et privatisation",
+      "title": "Privatiser le Disque Bleu",
+      "text": "Anniversaire, pot de départ, repas d'équipe ou de famille : dites-nous la date et le nombre de convives, on vous prépare une proposition. Nous livrons aussi nos burgers et frites maison pour vos fêtes.",
+      "cta": "Demander une privatisation"
+    }
+  },
+  "team": {
+    "eyebrow": "La maison",
+    "title": "Ici, vous êtes toujours le bienvenu",
+    "text": [
+      "Le Disque Bleu, c'est le café où l'on vous reconnaît. On vous sert votre petit noir sans que vous l'ayez demandé, on vous garde la table au soleil, et on prend le temps de répondre à chaque avis, un par un.",
+      "En cuisine, le chef prépare chaque matin le plat du jour avec des produits frais. Le lundi, c'est couscous royal : le bouillon de légumes est sur le feu dès l'ouverture."
+    ],
+    "cta": "Nous suivre sur Instagram"
+  },
+  "reviews": {
+    "eyebrow": "Avis clients",
+    "title": "{value}/5 sur Google, {count} avis",
+    "text": "Ce qui revient le plus : les plats du jour, l'accueil et la terrasse. Merci à tous ceux qui prennent le temps de l'écrire.",
+    "cta": "Lire les avis sur Google"
+  },
+  "infos": {
+    "eyebrow": "Infos pratiques",
+    "title": "Nous trouver",
+    "address": "Adresse",
+    "phone": "Téléphone",
+    "hours": "Horaires",
+    "summer": "En été, ouvert jusqu'à 22 h du lundi au samedi.",
+    "access": "Accès et stationnement",
+    "accessText": "Sur la place Roger Levanneur, dans le centre de Montmorency. On se gare sur la place et dans les rues voisines.",
+    "servicesTitle": "Sur place",
+    "servicesList": [
+      "Restaurant et brasserie",
+      "Terrasse",
+      "Vente à emporter",
+      "Bar",
+      "Tabac"
+    ],
+    "route": "Itinéraire",
+    "mapTitle": "Le Disque Bleu sur Google Maps",
+    "days": [
+      "Lundi",
+      "Mardi",
+      "Mercredi",
+      "Jeudi",
+      "Vendredi",
+      "Samedi",
+      "Dimanche"
+    ],
+    "closed": "Fermé"
+  },
+  "faq": {
+    "eyebrow": "Questions fréquentes",
+    "title": "Bon à savoir",
+    "items": [
+      {
+        "q": "Faut-il réserver ?",
+        "a": "Ce n'est pas obligatoire, mais c'est plus sûr le midi, le week-end et les soirs de soirée. Réservez en ligne ou au 01 75 40 78 27 ; nous vous rappelons pour confirmer."
+      },
+      {
+        "q": "Accueillez-vous les groupes ?",
+        "a": "Oui. Au-delà de 12 personnes, passez par la demande de groupe : nous voyons avec vous la table, le menu et l'horaire."
+      },
+      {
+        "q": "Peut-on privatiser le restaurant ?",
+        "a": "Oui, pour un anniversaire, un pot ou un repas d'entreprise. Envoyez-nous la date, le nombre de convives et votre budget, nous vous répondons avec une proposition."
+      },
+      {
+        "q": "Quel est le plat du jour ?",
+        "a": "Il change chaque midi et s'écrit le matin sur l'ardoise. Appelez-nous, ou regardez nos stories Instagram. Le lundi, c'est couscous royal."
+      },
+      {
+        "q": "Proposez-vous la vente à emporter et la livraison ?",
+        "a": "La vente à emporter, oui : commandez en ligne ou par téléphone et passez prendre votre plat. Pour une livraison, appelez-nous, nous vous dirons ce qui est possible."
+      },
+      {
+        "q": "La terrasse est-elle ouverte toute l'année ?",
+        "a": "Elle est installée sur la place dès que le temps le permet, et abritée sous le store. En été, nous restons ouverts jusqu'à 22 h."
+      },
+      {
+        "q": "Quels moyens de paiement acceptez-vous ?",
+        "a": "La carte bancaire et les espèces. Pour les titres-restaurant, posez-nous la question par téléphone."
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "Restaurant · Bar · Tabac · Montmorency",
+    "hours": "Horaires",
+    "contact": "Contact",
+    "explore": "Le site",
+    "legal": "Mentions légales",
+    "instagram": "Instagram",
+    "rights": "Tous droits réservés.",
+    "alcohol": "L'abus d'alcool est dangereux pour la santé, à consommer avec modération."
+  },
+  "form": {
+    "required": "Champ obligatoire",
+    "optional": "facultatif",
+    "name": "Nom",
+    "phone": "Téléphone",
+    "email": "E-mail",
+    "message": "Message",
+    "date": "Date",
+    "time": "Heure",
+    "guests": "Nombre de personnes",
+    "chooseTime": "Choisir une heure",
+    "noTime": "Aucun créneau ce jour-là",
+    "errors": {
+      "name": "Indiquez votre nom.",
+      "phone": "Indiquez un numéro de téléphone valide.",
+      "email": "Cette adresse e-mail ne semble pas valide.",
+      "date": "Choisissez une date.",
+      "time": "Choisissez une heure.",
+      "guests": "Indiquez le nombre de personnes.",
+      "cart": "Ajoutez au moins un article.",
+      "type": "Choisissez un type d'événement."
+    },
+    "sending": "Envoi…",
+    "failed": "L'envoi n'a pas abouti. Appelez-nous au 01 75 40 78 27, nous prenons votre demande tout de suite.",
+    "orCall": "Vous préférez le téléphone ?",
+    "privacy": "Vos coordonnées servent uniquement à traiter votre demande.",
+    "again": "Faire une autre demande",
+    "payOnSite": "Le règlement se fait sur place."
+  },
+  "resa": {
+    "title": "Réserver une table",
+    "service": "Service",
+    "services": {
+      "lunch": "Déjeuner",
+      "dinner": "Dîner"
+    },
+    "area": "Où souhaitez-vous être installé ?",
+    "areas": {
+      "any": "Peu importe",
+      "terrace": "En terrasse",
+      "inside": "En salle"
+    },
+    "occasion": "Occasion",
+    "occasionPh": "Anniversaire, repas d'affaires…",
+    "messagePh": "Chaise haute, allergie, heure d'arrivée…",
+    "big": "Vous êtes plus de 12 ? Passez par la demande de groupe.",
+    "submit": "Envoyer ma demande",
+    "doneTitle": "Demande bien reçue",
+    "done": "Nous vous rappelons pour confirmer votre table. Sans nouvelles de notre part avant le service, appelez-nous au 01 75 40 78 27.",
+    "doneNoMail": "Votre demande est enregistrée. Pour être certain d'avoir votre table, confirmez-la par téléphone au 01 75 40 78 27.",
+    "mail": {
+      "subject": "Réservation",
+      "title": "Nouvelle demande de réservation",
+      "date": "Date",
+      "service": "Service",
+      "time": "Heure",
+      "guests": "Personnes",
+      "area": "Placement",
+      "occasion": "Occasion",
+      "name": "Nom",
+      "phone": "Téléphone",
+      "email": "E-mail",
+      "message": "Message",
+      "lang": "Langue du client",
+      "confirmSubject": "Votre demande de réservation au Disque Bleu",
+      "confirmIntro": "Bonjour {name},\n\nNous avons bien reçu votre demande de réservation. Nous vous rappelons pour la confirmer.",
+      "confirmOutro": "À très vite,\nLe Disque Bleu\n8 place Roger Levanneur, 95160 Montmorency\n01 75 40 78 27"
+    }
+  },
+  "order": {
+    "title": "Commander à emporter",
+    "cart": "Votre commande",
+    "empty": "Votre commande est vide. Ajoutez des plats depuis la carte.",
+    "toMenu": "Choisir sur la carte",
+    "addMore": "Ajouter d'autres plats",
+    "pickupDay": "Jour du retrait",
+    "pickupTime": "Heure du retrait",
+    "messagePh": "Cuisson, sauce à part, plat du jour souhaité…",
+    "total": "Total estimé",
+    "submit": "Envoyer ma commande",
+    "doneTitle": "Commande bien reçue",
+    "done": "Nous la préparons pour l'heure indiquée et vous appelons s'il manque un plat. Le règlement se fait sur place.",
+    "doneNoMail": "Votre commande est enregistrée. Pour être certain qu'elle soit prête, confirmez-la par téléphone au 01 75 40 78 27.",
+    "mail": {
+      "subject": "Commande à emporter",
+      "title": "Nouvelle commande à emporter",
+      "lines": "Commande",
+      "pickup": "Retrait",
+      "total": "Total estimé",
+      "name": "Nom",
+      "phone": "Téléphone",
+      "email": "E-mail",
+      "message": "Remarques",
+      "confirmSubject": "Votre commande à emporter au Disque Bleu",
+      "confirmIntro": "Bonjour {name},\n\nNous avons bien reçu votre commande. Elle sera prête à l'heure indiquée.",
+      "confirmOutro": "Le règlement se fait sur place.\n\nÀ tout à l'heure,\nLe Disque Bleu\n8 place Roger Levanneur, 95160 Montmorency\n01 75 40 78 27"
+    }
+  },
+  "privat": {
+    "title": "Privatisation et groupes",
+    "type": "Type d'événement",
+    "types": {
+      "birthday": "Anniversaire",
+      "drinks": "Pot ou afterwork",
+      "company": "Repas d'entreprise",
+      "family": "Repas de famille",
+      "evening": "Soirée à thème",
+      "other": "Autre"
+    },
+    "budget": "Budget par personne",
+    "budgetPh": "Ex. 30 €",
+    "messagePh": "Horaire, menu souhaité, musique, livraison de burgers…",
+    "submit": "Envoyer ma demande",
+    "doneTitle": "Demande bien reçue",
+    "done": "Nous revenons vers vous avec une proposition. Pour une date proche, appelez-nous au 01 75 40 78 27.",
+    "doneNoMail": "Votre demande est enregistrée. Pour en parler de vive voix, appelez-nous au 01 75 40 78 27.",
+    "mail": {
+      "subject": "Privatisation",
+      "title": "Nouvelle demande de privatisation",
+      "date": "Date",
+      "type": "Événement",
+      "guests": "Personnes",
+      "budget": "Budget par personne",
+      "name": "Nom",
+      "phone": "Téléphone",
+      "email": "E-mail",
+      "message": "Message",
+      "confirmSubject": "Votre demande de privatisation au Disque Bleu",
+      "confirmIntro": "Bonjour {name},\n\nNous avons bien reçu votre demande. Nous revenons vers vous avec une proposition.",
+      "confirmOutro": "À très vite,\nLe Disque Bleu\n8 place Roger Levanneur, 95160 Montmorency\n01 75 40 78 27"
+    }
+  },
+  "pages": {
+    "carte": {
+      "title": "La carte",
+      "metaTitle": "La carte : plats, burger maison, desserts et cocktails | Le Disque Bleu, Montmorency",
+      "metaDescription": "La carte du Disque Bleu à Montmorency : plat du jour, pièce du boucher, burger maison, pâtes, salades, desserts maison, cocktails. Sur place ou à emporter.",
+      "h1": "La carte",
+      "intro": "Plat du jour le midi, classiques de brasserie toute la semaine, desserts maison et cocktails. Les plats marqués d'un « + » se commandent à emporter."
+    },
+    "reserver": {
+      "title": "Réserver une table",
+      "metaTitle": "Réserver une table à Montmorency | Le Disque Bleu",
+      "metaDescription": "Réservez votre table au Disque Bleu, place Roger Levanneur à Montmorency : déjeuner, dîner, en salle ou en terrasse. Confirmation par téléphone.",
+      "h1": "Réserver une table",
+      "intro": "Déjeuner ou dîner, en salle ou en terrasse. Envoyez votre demande, nous vous rappelons pour la confirmer."
+    },
+    "commander": {
+      "title": "Commander à emporter",
+      "metaTitle": "Commander à emporter à Montmorency | Le Disque Bleu",
+      "metaDescription": "Commandez vos plats à emporter au Disque Bleu : plat du jour, burger maison, pâtes, desserts. Retrait place Roger Levanneur à Montmorency.",
+      "h1": "Commander à emporter",
+      "intro": "Composez votre commande, choisissez l'heure du retrait et passez la prendre au comptoir. Le règlement se fait sur place."
+    },
+    "privatiser": {
+      "title": "Soirées et privatisation",
+      "metaTitle": "Soirées, groupes et privatisation à Montmorency | Le Disque Bleu",
+      "metaDescription": "Soirée portugaise, barbecue sur la place, soirées dansantes : les événements du Disque Bleu à Montmorency. Privatisation pour anniversaires, pots et repas de groupe.",
+      "h1": "Soirées et privatisation",
+      "intro": "Les soirées de la maison, et la vôtre : anniversaire, pot, repas d'équipe. Dites-nous ce que vous avez en tête."
+    },
+    "restaurant": {
+      "title": "Restaurant à Montmorency",
+      "metaTitle": "Restaurant à Montmorency : plat du jour et cuisine maison | Le Disque Bleu",
+      "metaDescription": "Restaurant-brasserie à Montmorency (95160), place Roger Levanneur : plat du jour le midi, burger maison, viandes, pâtes, desserts maison. 4,5/5 sur Google. Réservation en ligne.",
+      "h1": "Restaurant à Montmorency, sur la place Roger Levanneur",
+      "intro": "Une brasserie de quartier où l'on cuisine tous les jours : le plat du jour le midi, les classiques toute la semaine, et le couscous royal du lundi.",
+      "sections": [
+        {
+          "h": "Le plat du jour, tous les midis",
+          "p": [
+            "Chaque matin, le chef écrit un nouveau plat sur l'ardoise. Ces derniers mois, on y a vu une côte de veau sauce échalote avec sa purée maison, une langue de bœuf, un bœuf bourguignon, des moules frites, une paella, une choucroute garnie.",
+            "Le lundi, c'est toujours couscous royal : semoule, bouillon de légumes, poulet rôti et merguez."
+          ]
+        },
+        {
+          "h": "Un burger dont on fait aussi le pain",
+          "p": [
+            "Le burger maison est devenu le plat le plus demandé de la carte. Le steak est façonné ici, le pain sort de notre four, les frites sont coupées et cuites sur place.",
+            "À côté, les valeurs sûres de la brasserie : pièce du boucher au beurre maître d'hôtel, andouillette grillée, steak haché œuf à cheval, saumon grillé, escalope milanaise, et des pâtes pour tous les goûts."
+          ]
+        },
+        {
+          "h": "Déjeuner à Montmorency, en salle ou en terrasse",
+          "p": [
+            "Le Disque Bleu se trouve au 8 place Roger Levanneur, dans le centre de Montmorency (Val-d'Oise), à quelques minutes d'Enghien-les-Bains, Soisy-sous-Montmorency et Deuil-la-Barre.",
+            "Nous servons du lundi au samedi de 7 h à 21 h et le dimanche de 7 h 30 à 15 h. Comptez 10 à 20 € par personne. La réservation est conseillée le midi et le week-end."
+          ]
+        }
+      ],
+      "cta": "Réserver une table",
+      "cta2": "Voir la carte"
+    },
+    "bar": {
+      "title": "Bar et terrasse à Montmorency",
+      "metaTitle": "Bar et terrasse à Montmorency : cocktails, café, tabac | Le Disque Bleu",
+      "metaDescription": "Bar, terrasse et tabac à Montmorency, place Roger Levanneur : café dès 7 h, cocktails avec ou sans alcool, planches, crêpes maison l'après-midi. Ouvert 7 j/7.",
+      "h1": "Bar et terrasse à Montmorency",
+      "intro": "Le café du matin, le verre en terrasse, le cocktail du soir. Et le tabac, ouvert toute la journée.",
+      "sections": [
+        {
+          "h": "Une terrasse sur la place Roger Levanneur",
+          "p": [
+            "Des tables rondes en marbre cerclées de laiton, des chaises tressées, un store rouge : la terrasse du Disque Bleu donne sur la place, au soleil une bonne partie de la journée.",
+            "On y prend le petit-déjeuner, on y déjeune, on y commande une crêpe maison à partir de 15 h. En été, elle reste ouverte jusqu'à 22 h."
+          ]
+        },
+        {
+          "h": "Les cocktails, avec ou sans alcool",
+          "p": [
+            "À la carte : mojito, spritz, piña colada, Fun on the Beach, Swimming Pool. Et quatre cocktails sans alcool, du virgin mojito au Coconut Island.",
+            "Pour accompagner, une planche de charcuterie à partager. L'abus d'alcool est dangereux pour la santé, à consommer avec modération."
+          ]
+        },
+        {
+          "h": "Café, petit-déjeuner et tabac",
+          "p": [
+            "Dès 7 h (7 h 30 le dimanche), le comptoir sert le café, le cappuccino, le chocolat chaud et la formule petit-déjeuner : croissant ou pain au chocolat, jus d'orange pressé et boisson chaude.",
+            "Le Disque Bleu est aussi le tabac de la place."
+          ]
+        }
+      ],
+      "cta": "Réserver une table",
+      "cta2": "Voir les cocktails"
+    },
+    "legal": {
+      "title": "Mentions légales",
+      "metaTitle": "Mentions légales | Le Disque Bleu, Montmorency",
+      "metaDescription": "Mentions légales et données personnelles du site du Disque Bleu, restaurant-brasserie à Montmorency.",
+      "h1": "Mentions légales",
+      "intro": "",
+      "sections": [
+        {
+          "h": "Éditeur du site",
+          "p": [
+            "Le Disque Bleu, 8 place Roger Levanneur, 95160 Montmorency. Téléphone : 01 75 40 78 27.",
+            "SIRET et nom du directeur de la publication : en cours d'ajout."
+          ]
+        },
+        {
+          "h": "Hébergement",
+          "p": [
+            "Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis."
+          ]
+        },
+        {
+          "h": "Données personnelles",
+          "p": [
+            "Les informations saisies dans les formulaires (nom, téléphone, e-mail, message) servent uniquement à traiter votre réservation, votre commande ou votre demande de privatisation. Elles ne sont ni revendues ni utilisées à des fins publicitaires.",
+            "Vous pouvez demander leur rectification ou leur suppression par téléphone au 01 75 40 78 27 ou directement au restaurant.",
+            "Le site n'utilise aucun cookie publicitaire ni traceur tiers. La carte Google Maps est chargée depuis les serveurs de Google."
+          ]
+        },
+        {
+          "h": "Photos",
+          "p": [
+            "Les photos du site sont celles du Disque Bleu. Toute reproduction est soumise à son accord."
+          ]
+        }
+      ]
+    }
+  },
+  "alt": {
+    "hero": "Steak haché œuf à cheval et frites maison, servis sur la terrasse du Disque Bleu",
+    "table-terrasse": "Une table en marbre cerclée de laiton et des chaises tressées sur la terrasse du Disque Bleu",
+    "terrasse-store-rouge": "La terrasse du Disque Bleu sous son store rouge, place Roger Levanneur",
+    "terrasse-soleil": "La terrasse du Disque Bleu au soleil",
+    "burger-maison": "Burger maison et frites, sur une table de la terrasse",
+    "salade-poulet": "Salade au poulet grillé, tomates et concombre",
+    "saumon-grille": "Saumon grillé, asperges vertes et pommes de terre",
+    "pates-pesto": "Pâtes au pesto, tomates cerises et parmesan",
+    "andouillette": "Andouillette grillée, frites et salade",
+    "piece-du-boucher": "Pièce du boucher au beurre maître d'hôtel, frites et salade",
+    "escalope-milanaise": "Escalope milanaise et penne à la sauce tomate",
+    "lasagne": "Part de lasagne bolognaise et salade verte",
+    "paella": "Assiette de paella aux moules et aux crevettes",
+    "spaghetti-bolognaise": "Spaghettis bolognaise au parmesan",
+    "travers-de-porc": "Travers de porc et pommes de terre au four",
+    "penne-champignons": "Penne à la crème de champignons",
+    "saumon-riz": "Pavé de saumon, légumes et riz",
+    "steak-oeuf-a-cheval": "Steak haché œuf à cheval et frites maison",
+    "poulet-frites": "Cuisse de poulet rôtie et frites maison",
+    "dessert-pistache": "Coupe de crème au chocolat et aux pistaches",
+    "crepes": "Crêpes maison aux myrtilles",
+    "panna-cotta": "Panna cotta au coulis de fruits rouges et jus d'orange pressé",
+    "creme-brulee": "Crème brûlée entamée à la cuillère",
+    "cafe": "Tasse de café crème sur le comptoir",
+    "petit-dejeuner": "Petit-déjeuner : croissants, jus d'orange pressé et cappuccino",
+    "mojito-spritz": "Un mojito et un spritz sur une table de la terrasse",
+    "sirops": "Deux verres de citronnade et de sirop en terrasse",
+    "assiette-barbecue": "Assiettes de grillades au barbecue et frites maison, soirée portugaise",
+    "facade-soir": "La façade du Disque Bleu à la tombée de la nuit, store rouge et terrasse éclairée",
+    "salle": "La salle du Disque Bleu",
+    "bar": "Le bar du Disque Bleu",
+    "facade": "La façade du Disque Bleu, place Roger Levanneur",
+    "equipe": "L'équipe du Disque Bleu",
+    "soiree-dj": "Soirée dansante au Disque Bleu",
+    "beaujolais": "Soirée Beaujolais au Disque Bleu",
+    "couscous": "Couscous royal maison"
+  }
+}
