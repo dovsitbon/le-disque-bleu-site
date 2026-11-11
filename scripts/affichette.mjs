@@ -17,10 +17,10 @@ const cx = W / 2;
 // QR code dessiné en carrés (niveau de correction élevé : il reste lisible même un peu taché)
 const qr = QRCode.create(site.url, { errorCorrectionLevel: "H" });
 const n = qr.modules.size;
-const QR = 560;
+const QR = 520;
 const cell = QR / n;
 const qx = cx - QR / 2;
-const qy = 1530;
+const qy = 1630;
 let squares = "";
 for (let r = 0; r < n; r++) for (let c = 0; c < n; c++) if (qr.modules.get(r, c)) squares += `<rect x="${(qx + c * cell).toFixed(2)}" y="${(qy + r * cell).toFixed(2)}" width="${(cell + 0.5).toFixed(2)}" height="${(cell + 0.5).toFixed(2)}"/>`;
 
@@ -37,8 +37,8 @@ ${text(fonts.display, "La carte, le plat du jour, la réservation", cx, photoY +
 ${text(fonts.text, "Scannez pour tout voir sur votre téléphone", cx, photoY + photoH + 200, 38, { anchor: "middle", fill: C.muted })}
 <rect x="${qx - 36}" y="${qy - 36}" width="${QR + 72}" height="${QR + 72}" fill="#FFFFFF"/>
 <g fill="${C.blueDeep}">${squares}</g>
-${text(fonts.medium, host, cx, qy + QR + 120, 40, { anchor: "middle", fill: C.blue, tracking: 0.04 })}
-${text(fonts.text, `${site.address.street}, ${site.address.city}  ·  ${site.phone}`, cx, qy + QR + 190, 34, { anchor: "middle", fill: C.muted })}
+${text(fonts.medium, host, cx, qy + QR + 110, 40, { anchor: "middle", fill: C.blue, tracking: 0.04 })}
+${text(fonts.text, `${site.address.street}, ${site.address.city}  ·  ${site.phone}`, cx, qy + QR + 175, 34, { anchor: "middle", fill: C.muted })}
 ${disc(200, qy + QR / 2, 54)}
 ${disc(W - 200, qy + QR / 2, 54)}
 </svg>`;
